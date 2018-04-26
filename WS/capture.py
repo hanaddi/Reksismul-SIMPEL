@@ -36,7 +36,7 @@ def lapor(img) :
 
 
 def capture () :
-	global count, matrix, cap
+	global count, matrix, cap, now
 	firstTime = True
 	while(True):
 		count = (count+1)
